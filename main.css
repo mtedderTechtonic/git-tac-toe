@@ -1,0 +1,21 @@
+.board-template {
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+    height: 72vh;
+    width: 72vw;
+    margin: 0 11vw 1vh 11vw;
+  }
+  
+  .board-template section {
+    grid-area: 1 / 1 / auto / span 3;
+    text-align: center;
+  }
+  
+  .board-template div {
+    box-sizing: border-box;
+    border: 3px solid black;
+    height: 26vh;
+    width: 26vw;
+    font-size: 10em;
+    text-align: center;
+  }
